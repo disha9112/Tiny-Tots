@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "./button.component";
 
 function SearchBar() {
   return (
@@ -12,9 +13,7 @@ function SearchBar() {
           type="text"
           placeholder="Type a query..."
         />
-        <button className="p-2 text-xl cursor-pointer border-none focus:outline-none bg-pink-primary text-white rounded-lg">
-          Search
-        </button>
+        <Button>Search</Button>
       </form>
     </div>
   );
