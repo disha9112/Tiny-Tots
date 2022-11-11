@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./button.component";
+import Button from "../components/button.component";
 
 const Login = () => {
   return (
