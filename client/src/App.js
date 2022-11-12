@@ -8,6 +8,7 @@ import SearchPage from "./pages/search.page";
 import Profile from "./pages/Profile";
 import CrecheDetails from "./pages/CrecheDetails";
 import Dashboard from "./pages/dashboard.page";
+import LandingPage from "./pages/landing.page";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/discussion-forum" element={<DiscussionForum />} />
         <Route path="/search-page" element={<SearchPage />} />
         <Route path="/profile" element={<Profile />} />
