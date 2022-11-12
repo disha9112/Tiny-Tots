@@ -14,6 +14,9 @@ const ContactReqList = () => {
         <ContactReqComp/>
         <ContactReqComp/>
         <ContactReqComp/>
+        <ContactReqComp/>
+        <ContactReqComp/>
+        <ContactReqComp/>
     </div>
     </div>
     

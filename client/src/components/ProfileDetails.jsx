@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileDetails = () => {
   return (
-    <div className="p-5">
+    <div className="px-5 py-0">
         <div className="text-3xl font-bold pb-3">Details</div>
         <div className="flex justify-between font-bold pb-2">
             <span className="text-slate-400">Name </span>

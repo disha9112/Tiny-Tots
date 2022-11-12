@@ -11,7 +11,7 @@ const CrecheDetails = () => {
       <CrecheImagesComponent />
       <div className="flex flex-cols-3 p-10">
       <ProfileDetails />
-            <ReviewsComponent />
+      <ReviewsComponent />
       </div>
      
     </div>
