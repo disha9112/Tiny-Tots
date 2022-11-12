@@ -18,14 +18,14 @@ const ProfileDetails = () => {
         </div>
         <div className="flex justify-between font-bold pb-2">
             <span  className="text-slate-400">Location</span>
-            <span>Gwalior, Madhya Pradesh</span>
+            <span>Gwalior</span>
         </div>
         <div className="flex justify-between font-bold pb-2">
             <span  className="text-slate-400">Rating </span>
             <span>4.5</span>
         </div>
         <div className="flex justify-between font-bold pb-2">
-            <span  className="text-slate-400">Social Media </span>
+            <span  className="text-slate-400">Social Media   </span>
             <span>@pqr_creche</span>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import ContactReqList from "../../components/contact-requests/ContactReqList";
-import ProfileDetails from "../../components/ProfileDetails";
+import ContactReqList from "../components/contact-requests/ContactReqList";
+import ProfileDetails from "../components/ProfileDetails";
 
 const Profile = () => {
   return (
