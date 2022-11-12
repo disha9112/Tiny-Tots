@@ -1,6 +1,7 @@
 # Tiny Tots
 
 
+# Screenshots of the Website
 ![Screenshot 2022-11-12 224652](https://user-images.githubusercontent.com/78213881/201486349-98831d7f-97f5-4da7-a493-8c968953a352.jpg)
 
 
