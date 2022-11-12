@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const auth = require("./routes/auth.routes");
 
 require("dotenv").config();
 
@@ -17,6 +18,8 @@ connection.once("open", () => {
 
 app.use(express.json());
 app.use(cors());
+
+app.use("/auth", auth);
 
 app.get("/", (req, res) => {
   res.send("Server is listening for requests");
