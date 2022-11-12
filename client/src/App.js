@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header.component";
 import DiscussionForum from "./pages/discussion-forum.page";
+import Dashboard from "./pages/dashboard.page";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/discussion-forum" element={<DiscussionForum />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
