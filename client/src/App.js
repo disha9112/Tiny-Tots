@@ -7,6 +7,7 @@ import DiscussionForum from "./pages/discussion-forum.page";
 import SearchPage from "./pages/search.page";
 import Profile from "./pages/Profile";
 import CrecheDetails from "./pages/CrecheDetails";
+import Dashboard from "./pages/dashboard.page";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/search-page" element={<SearchPage />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/details/:id" element={<CrecheDetails />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
