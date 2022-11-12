@@ -4,6 +4,7 @@ import Header from "./components/header.component";
 import Signup from "./pages/signup.page";
 import Login from "./pages/login.page";
 import DiscussionForum from "./pages/discussion-forum.page";
+import SearchPage from "./pages/search.page";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/discussion-forum" element={<DiscussionForum />} />
+        <Route path="/search-page" element={<SearchPage />} />
       </Routes>
     </Router>
   );

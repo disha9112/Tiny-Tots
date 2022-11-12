@@ -6,7 +6,10 @@ import SearchBar from "../components/search-bar.component";
 function DiscussionForum() {
   return (
     <div className="p-5">
-      <SearchBar />
+      <SearchBar
+        text="Explore a plethora of queries, to know the best for your child."
+        placeholder="Type a query"
+      />
       <QuestionList />
     </div>
   );
